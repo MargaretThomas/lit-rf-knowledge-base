@@ -1,0 +1,12 @@
+.nav-item-image-container{
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin: 20px 5px 20px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.nav-item-image{
+    width: 50px;
+}

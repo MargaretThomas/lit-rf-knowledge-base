@@ -1,1 +1,6 @@
-<!-- Add nav bar items here -->
+<section>
+    <app-side-navigation-bar-item
+      *ngFor="let navigationItem of navigationItemsList"
+      [navigationItem]="navigationItem">
+    </app-side-navigation-bar-item>
+  </section>
