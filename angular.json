@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/styles.css",
+              "src/styles/normalize.css",
+              "src/styles/skeleton.css"
             ],
             "scripts": []
           },
@@ -87,7 +89,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/styles.css",
+              "src/styles/normalize.css",
+              "src/styles/skeleton.css"
             ],
             "scripts": [],
             "karmaConfig": "karma.conf.js"
