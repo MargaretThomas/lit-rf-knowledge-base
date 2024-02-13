@@ -1,6 +1,10 @@
-# LitRfKnowledgeBase
+# LIT RF Knowledge Base
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+
+L - LinkedIn, I - Instagram, T - Twitter, R - Reddit, F - Facebook.
+
+Please see the [wiki](https://github.com/MargaretThomas/lit-rf-knowledge-base/wiki) for more information on the project. 
 
 ## Development server
 
