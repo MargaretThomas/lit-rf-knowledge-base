@@ -23,7 +23,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install @angular/cli
+          npm install -g @angular/cli
           npm install
           ng build --base-href /wwwroot/
           npm run test --if-present 
