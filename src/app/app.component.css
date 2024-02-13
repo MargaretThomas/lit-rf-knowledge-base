@@ -1,17 +1,14 @@
 .header{
     background-color: #7EB7A6;
     text-align: center;
-    height: 10%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    padding: 0 10px;
 }
 
 .side-navigation-bar{
     position: fixed;
     left: 0;
-    margin-top: 6.5%;
+    margin-top: 0;
+    margin-left: 0;
     height: 80%;
     width: 10%;
     background-color: #7EABB7;
@@ -32,4 +29,10 @@
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .side-navigation-bar{
+        display: none;
+    }
 }
