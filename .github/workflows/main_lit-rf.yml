@@ -57,5 +57,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'LIT-RF'
-          package: ./dist/lit-rf-knowledge-base
+          package: ./dist/lit-rf-knowledge-base/browser
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91AB47566CF4440A9E2E40C4C4772EC0 }}
