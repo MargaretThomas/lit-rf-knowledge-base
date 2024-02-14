@@ -1,4 +1,5 @@
-<app-space-capsule class="space-capsule"
+<app-space-capsule class="space-capsule" 
     *ngFor="let spaceCapsule of spaceCapsulesList" 
-    [spaceCapsule]="spaceCapsule">
+    [spaceCapsule]="spaceCapsule"
+    [ngClass]="spaceCapsule.platform">
 </app-space-capsule>

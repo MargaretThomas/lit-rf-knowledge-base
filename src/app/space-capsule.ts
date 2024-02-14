@@ -1,10 +1,10 @@
 export enum platformEnum{
-    GeneralWeb,
-    LinkedIn,
-    Instagram,
-    Twitter,
-    Reddit,
-    Facebook
+    GeneralWeb = "GeneralWeb",
+    LinkedIn = "LinkedIn",
+    Instagram = "Instagram",
+    Twitter = "Twitter",
+    Reddit = "Reddit",
+    Facebook = "Facebook"
 }
 
 export interface SpaceCapsule {
