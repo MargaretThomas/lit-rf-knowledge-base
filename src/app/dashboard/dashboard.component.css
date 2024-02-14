@@ -1,0 +1,13 @@
+.space-capsule{
+    position: relative;
+    min-width: 100px;
+    height: 150px;
+    background-color: #7EABB7;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+/* Styling per platform */
