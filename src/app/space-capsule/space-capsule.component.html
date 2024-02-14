@@ -1,3 +1,6 @@
 <div class="space-capsule">
-    <span>I am a space capsule</span>
+    <p class="space-capsule-name">{{ spaceCapsule.name }}</p>
+    <p class="space-capsule-url">
+        <a [href]="spaceCapsule.url" target="_blank" [title]="spaceCapsule.name">Link</a>
+    </p>
 </div>

@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { SpaceCapsule } from '../space-capsule';
 
 @Component({
   selector: 'app-space-capsule',
@@ -8,5 +9,5 @@ import { Component } from '@angular/core';
   styleUrl: './space-capsule.component.css'
 })
 export class SpaceCapsuleComponent {
-
+  @Input() spaceCapsule!:SpaceCapsule;
 }
