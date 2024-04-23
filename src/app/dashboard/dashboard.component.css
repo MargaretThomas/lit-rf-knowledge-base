@@ -2,39 +2,9 @@
     position: relative;
     min-width: 100px;
     height: 100px;
-    background-color: #D4E3B8;
     margin: 3px;
     padding: 10px;
     text-align: center;
     display: inline-block;
     border-radius: 5%;
-}
-
-/* Styling per group */
-.group-one{
-    background-color: #FFD47F;
-}
-
-.group-two{
-    background-color: #FF7FAA;
-}
-
-.group-three{
-    background-color: #FFFF99;
-}
-
-.group-four{
-    background-color: #D47FFF;
-}
-
-.group-five{
-    background-color: #FF947F;
-}
-
-.group-six{
-    background-color: #7FFF94;
-}
-
-.group-seven{
-    background-color: #AAFF7F;
 }

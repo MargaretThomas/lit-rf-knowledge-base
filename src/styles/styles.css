@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+.group-one{
+    background-color: #FFD47F;
+}
+
+.group-two{
+    background-color: #FF7FAA;
+}
+
+.group-three{
+    background-color: #FFFF99;
+}
+
+.group-four{
+    background-color: #D47FFF;
+}
+
+.group-five{
+    background-color: #FF947F;
+}
+
+.group-six{
+    background-color: #7FFF94;
+}
+
+.group-seven{
+    background-color: #AAFF7F;
+}
