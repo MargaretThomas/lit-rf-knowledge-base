@@ -14,33 +14,38 @@ export class SideNavigationBarComponent {
   navigationItemsList: NavigationItem[] = [
     {
       id: 1,
-      title: "LinkedIn logo",
-      imageSource: "../../assets/linkedin-logo.png"
+      title: "Group One",
+      className: "group-one"
     },
     {
       id: 2,
-      title: "Instagram logo",
-      imageSource: "../assets/instagram-logo.png"
+      title: "Group Two",
+      className: "group-two"
     },
     {
       id: 3,
-      title: "Twitter logo",
-      imageSource: "../assets/twitter-logo.png"
+      title: "Group Three",
+      className: "group-three"
     },
     {
       id: 4,
-      title: "Reddit logo",
-      imageSource: "../assets/reddit-logo.png"
+      title: "Group Four",
+      className: "group-four"
     },
     {
-      id: 3,
-      title: "Facebook logo",
-      imageSource: "../assets/facebook-logo.png"
+      id: 5,
+      title: "Group Five",
+      className: "group-five"
     },
     {
-      id: 4,
-      title: "Generic web logo",
-      imageSource: "../assets/web-logo.png"
+      id: 6,
+      title: "Group Six",
+      className: "group-six"
     },
+    {
+      id: 7,
+      title: "Group Seven",
+      className: "group-seven"
+    }
   ]
 }
