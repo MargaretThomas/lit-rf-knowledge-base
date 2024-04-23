@@ -1,0 +1,9 @@
+#add-new-space-capsule{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+#add-new-space-capsule:hover{
+    cursor: pointer;
+}
