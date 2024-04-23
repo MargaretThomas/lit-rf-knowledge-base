@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { SpaceCapsuleComponent } from './space-capsule.component';
 
-import { platformEnum } from '../space-capsule';
+import { groupEnum } from '../space-capsule';
 
 describe('SpaceCapsuleComponent', () => {
   let component: SpaceCapsuleComponent;
@@ -11,7 +11,7 @@ describe('SpaceCapsuleComponent', () => {
     id: 1,
     name: "Kaizen - testing version",
     url: "https://www.linkedin.com/posts/patrick-skene_excellence-incrementalgains-evolution-activity-7158549504755961856-DRHl/",
-    platform: platformEnum.LinkedIn
+    group: groupEnum.GroupOne
   }
 
   beforeEach(async () => {

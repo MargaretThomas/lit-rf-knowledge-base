@@ -8,7 +8,7 @@ describe('SideNavigationBarItemComponent', () => {
   const navBarItem = {
     id: 1,
     title: "Test logo",
-    imageSource: "../../assets/test-logo.png"
+    className: "group-one"
   };
 
   beforeEach(async () => {

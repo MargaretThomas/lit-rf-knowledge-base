@@ -24,6 +24,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('#header')?.textContent).toContain('Welcome to your knowledge base.');
+    expect(compiled.querySelector('#header-title-text')?.textContent).toContain('LIT RF Knowledge Base');
   });
 });
