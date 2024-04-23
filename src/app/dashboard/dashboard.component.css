@@ -3,34 +3,38 @@
     min-width: 100px;
     height: 100px;
     background-color: #D4E3B8;
-    margin: 10px;
+    margin: 3px;
     padding: 10px;
     text-align: center;
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 5%;
 }
 
-/* Styling per platform */
-.LinkedIn{
-    border: #EDAAB3 solid 5px;
+/* Styling per group */
+.group-one{
+    background-color: #FFD47F;
 }
 
-.Instagram{
-    border: #EDAAB3 solid 5px;
+.group-two{
+    background-color: #FF7FAA;
 }
 
-.Twitter{
-    border: #C43F52 solid 5px;
+.group-three{
+    background-color: #FFFF99;
 }
 
-.Reddit{
-    border: #2F4B2B solid 5px;
+.group-four{
+    background-color: #D47FFF;
 }
 
-.Facebook{
-    border: #81AC77 solid 5px;
+.group-five{
+    background-color: #FF947F;
 }
 
-.GeneralWeb{
-    border: #e09545 solid 5px;
+.group-six{
+    background-color: #7FFF94;
+}
+
+.group-seven{
+    background-color: #AAFF7F;
 }

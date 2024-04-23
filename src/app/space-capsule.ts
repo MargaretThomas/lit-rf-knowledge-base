@@ -1,10 +1,11 @@
-export enum platformEnum{
-    GeneralWeb = "GeneralWeb",
-    LinkedIn = "LinkedIn",
-    Instagram = "Instagram",
-    Twitter = "Twitter",
-    Reddit = "Reddit",
-    Facebook = "Facebook"
+export enum groupEnum{
+    GroupOne = "group-one",
+    GroupTwo = "group-two",
+    GroupThree = "group-three",
+    GroupFour = "group-four",
+    GroupFive = "group-five",
+    GroupSix = "group-six",
+    GroupSeven = "group-seven"
 }
 
 export interface SpaceCapsule {
@@ -12,5 +13,5 @@ export interface SpaceCapsule {
     name: string;
     url: string;
     description?: string;
-    platform: platformEnum;
+    group: groupEnum;
 }
