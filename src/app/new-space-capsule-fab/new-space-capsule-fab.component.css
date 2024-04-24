@@ -1,9 +1,15 @@
 #add-new-space-capsule{
     position: fixed;
     right: 10px;
-    bottom: 10px;
+    bottom: 80px;
 }
 
 #add-new-space-capsule:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #add-new-space-capsule{
+        bottom: 160px;
+    }
 }
