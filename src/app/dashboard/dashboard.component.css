@@ -2,35 +2,9 @@
     position: relative;
     min-width: 100px;
     height: 100px;
-    background-color: #D4E3B8;
-    margin: 10px;
+    margin: 3px;
     padding: 10px;
     text-align: center;
     display: inline-block;
-    border-radius: 15px;
-}
-
-/* Styling per platform */
-.LinkedIn{
-    border: #EDAAB3 solid 5px;
-}
-
-.Instagram{
-    border: #EDAAB3 solid 5px;
-}
-
-.Twitter{
-    border: #C43F52 solid 5px;
-}
-
-.Reddit{
-    border: #2F4B2B solid 5px;
-}
-
-.Facebook{
-    border: #81AC77 solid 5px;
-}
-
-.GeneralWeb{
-    border: #e09545 solid 5px;
+    border-radius: 5%;
 }

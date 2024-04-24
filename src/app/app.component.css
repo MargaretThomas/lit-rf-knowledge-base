@@ -1,7 +1,12 @@
 .header{
-    background-color: #7EB7A6;
+    background-color: #7FFFD4;
     text-align: center;
     padding: 0 10px;
+}
+
+#header-title-text{
+    padding: 10px 0 0 0;
+    margin: 0;
 }
 
 .side-navigation-bar{
@@ -9,19 +14,24 @@
     left: 0;
     margin-top: 0;
     margin-left: 0;
-    height: 80%;
+    height: 100%;
     width: 10%;
-    background-color: #7EABB7;
+    background-color: #919191;
+}
+
+.dashboard-container{
+    margin-top: 20px;
+    margin-bottom: 150px;
 }
 
 .footer{
-    background-color: #7E8FB7;
     text-align: center;
-    height: 10%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    margin-top: 500px;
+    background-color: #919191;
 }
 
 @media screen and (max-width: 600px) {
